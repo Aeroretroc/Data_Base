@@ -81,3 +81,14 @@ Database of rooms booking system
 
 [Task 4](https://github.com/Aeroretroc/Data_Base/blob/main/scripts/inserts1.sql)
 
+[Task 5](https://github.com/Aeroretroc/Data_Base/blob/main/scripts/crud.sql)
+
+[Task 6](https://github.com/Aeroretroc/Data_Base/blob/main/scripts/select_queries.sql)
+
+[Task 8](https://github.com/Aeroretroc/Data_Base/blob/main/scripts/index.sql)
+
+[Task 9](https://github.com/Aeroretroc/Data_Base/blob/main/scripts/views.sql)
+
+[Task 10](https://github.com/Aeroretroc/Data_Base/blob/main/scripts/stored_procedure_function.sql)
+
+[Task 11](https://github.com/Aeroretroc/Data_Base/blob/main/scripts/triggers.sql)
