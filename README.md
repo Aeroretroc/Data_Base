@@ -31,7 +31,7 @@ Database of rooms booking system
 | surname | The last name of the card holder | varchar(50) |
 | discount | The discount percentage associated with the card | int |
 | expiration_date | The expiration date of the card | date |
-| FOREIGN KEY (user_id) REFERENCES users(user_id) | A reference to the user table |
+
 
 #### Table 4: amenities
 | Column Name | Description | Data Type |
@@ -51,8 +51,7 @@ Database of rooms booking system
 | city | The city of the room | varchar(50) |
 | availability | The availability date of the room | date |
 | room_type | The type of the room | varchar(50) |
-| FOREIGN KEY (host_id) REFERENCES hosts(host_id) | A reference to the host table |
-| FOREIGN KEY (amenity_id) REFERENCES amenities(amenity_id) | A reference to the amenity table |
+
 
 #### Table 6: reservations
 | Column Name | Description | Data Type |
@@ -65,9 +64,7 @@ Database of rooms booking system
 | end_date | The end date of the reservation | date |
 | price | The price of the reservation | decimal(8,2) |
 | price_with_discount | The price of the reservation with discount applied | decimal(8,2) |
-| FOREIGN KEY (user_id) REFERENCES users(user_id) | A reference to the user table |
-| FOREIGN KEY (card_id) REFERENCES loyalty_card(card_id) | A reference to the loyalty card table |
-| FOREIGN KEY (room_id) REFERENCES rooms(room_id) | A reference to the room table |
+
 
 #### Table 7: reviews
 | Column Name | Description | Data Type |
@@ -77,5 +74,5 @@ Database of rooms booking system
 | rating | The rating given in the review | int |
 | comment | The comment given in the review | text |
 | date | The date the review was posted | date |
-| FOREIGN KEY (reservation_id) REFERENCES reservations(reservation_id) | A reference to the reservation table | 
+
 
