@@ -1,6 +1,10 @@
 # Project Database
 Database of rooms booking system
 
+## Conceptual Model
+![logical_model](https://github.com/Aeroretroc/Data_Base/assets/72448245/b8b32f2f-67d1-40b4-b02e-b3689ce5c358)
+
+
 ## Logical Model
 ![logical_model](https://user-images.githubusercontent.com/72448245/232317111-9af4d774-5aa7-4af7-bd1c-9cf0508752cb.png)
 
