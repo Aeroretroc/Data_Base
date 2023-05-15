@@ -1,4 +1,3 @@
-Here's an example of a physical data model based on the SQL code you provided:
 
 #### Table 1: hosts
 | Column Name | Description | Data Type |
@@ -74,4 +73,4 @@ Here's an example of a physical data model based on the SQL code you provided:
 | date | The date the review was posted | date |
 | FOREIGN KEY (reservation_id) REFERENCES reservations(reservation_id) | A reference to the reservation table | 
 
-Note: I made some assumptions about the data types based on the information you provided. For example, I assumed that the phone number would be stored as a string rather than an integer. You may need to adjust the data types based on your specific needs.
+
