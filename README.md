@@ -77,6 +77,6 @@ Database of rooms booking system
 
 
 ## Tasks
-[Task 3](https://github.com/Aeroretroc/Data_Base/blob/main/scripts/tables_ddl.sql)
+[Task 3](https://github.com/Aeroretroc/Data_Base/blob/main/scripts/tables_ddl.sql) -br+
 [Task 4](https://github.com/Aeroretroc/Data_Base/blob/main/scripts/inserts1.sql)
 
