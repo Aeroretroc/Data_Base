@@ -1,5 +1,13 @@
-# Project Database
-Database of rooms booking system
+# Database project: booking system
+
+
+The database for a rooms booking system is designed to manage the information related to the reservations made by users for different rooms. The system allows users to search for available rooms based on their preferences and book them. The database stores information about the hosts who own the rooms, the amenities available in each room, the users who make the reservations, and their associated loyalty cards.
+
+The database contains several tables, including the hosts table, which stores information about the hosts, such as their names and surnames. The rooms table stores details about each room, including its price, location, availability, and type. The amenities table lists all possible amenities that a room can have, such as Wi-Fi, air conditioning, and a swimming pool.
+
+The users table stores information about the users of the system, including their name, surname, email, password, and phone number. The loyalty_card table contains information about the loyalty cards issued to users, including their expiration date and associated discounts. When a user makes a reservation, the system stores information about the reservation in the reservations table, including the user who made the reservation, the room reserved, the start and end dates of the reservation, and the price paid.
+
+The system also allows users to provide feedback on their reservations by leaving reviews. The reviews table stores the reviews provided by users, including the rating and comment for a specific reservation.
 
 ## Conceptual Model
 ![logical_model](https://github.com/Aeroretroc/Data_Base/assets/72448245/b8b32f2f-67d1-40b4-b02e-b3689ce5c358)
